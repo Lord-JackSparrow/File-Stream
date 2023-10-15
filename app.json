@@ -13,10 +13,10 @@
       "media",
       "bot"
     ],
-  "repository": "https://github.com/Itz-JEOL/File-To-Link/",
+  "repository": "https://github.com/Lord_JackSparrow/File-Stream/",
   "success_url": "/",
   "logo": "https://graph.org/file/3421895411af26c3da183.jpg",
-  "website": "http://jeol.tech",
+  "website": "http://t.me/elitecraft_studios",
   "env": {
       "ENV": {
           "description": "Set this to True if you don't want to crash the bot",
