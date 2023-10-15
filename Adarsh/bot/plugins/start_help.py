@@ -101,16 +101,17 @@ async def about_handler(bot, message):
             Var.BIN_CHANNEL,
             f"#NEW_USER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) Started !!"
         )
-      await message.reply_photo(
+              
+    await message.reply_photo(
             photo="https://graph.org/file/8e67ae4a3803f69a28218.jpg",
-            caption="**sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜\n\n╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕\n┃\n┣⪼ʙᴏᴛ ɴᴀᴍᴇ : ғɪʟᴇ ᴛᴏ ʟɪɴᴋ\n┣⪼ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/elitecraft_studios'>EliteCraft Studios</a>\n┣⪼sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/elitecraft_support'>elitecraft support</a>\n┣⪼sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ\n┣⪼ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n┣⪼ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3\n┣⪼ʏᴏᴜᴛᴜʙᴇ : <a href='https://youtube.com/@elitecraft_studios'>EliteCraft Studios</a>\n┃\n╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕**",
+            caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ᴛʜɪs ʟɪɴᴋ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ᴛᴏ sᴛʀᴇᴀᴍ ᴜsɪɴɢ ᴇxᴛᴇʀɴᴀʟ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀs ᴛʜʀᴏᴜɢʜ ᴍʏ sᴇʀᴠᴇʀs.\n\n┣⪼ ғᴏʀ sᴛʀᴇᴀᴍɪɴɢ ᴊᴜsᴛ ᴄᴏᴘʏ ᴛʜᴇ ʟɪɴᴋ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ᴛᴏ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ.\n\n┣⪼ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟsᴏ sᴜᴘᴘᴏʀᴛ ɪɴ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ʀᴇᴀʟᴛɪᴍᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴏʀ ᴇᴠᴇʀʏ ғɪʟᴇs/ᴠɪᴅᴇᴏs ᴘᴏsʏ../\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /about\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜʙsᴄʀɪʙᴇ**", 
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/elitecraft_studios"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/elitecraft_support")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/jeol_tg"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/elitecraft_studios")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@elitecraft_studios")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/beta_botz"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/jeol_tg"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
+                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@itzjeol")]
                 ]
             ),
             
