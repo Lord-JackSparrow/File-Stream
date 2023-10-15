@@ -23,7 +23,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(_):
-    async with aiofiles.open('Adarsh/template/index.html')
+    return web.Response(text=await aiofiles.open('Adarsh/template/index.html'), content_type='text/html')
     
 
 
